@@ -1,0 +1,13 @@
+prefix=/Users/jaymehta/Desktop/TEXT-TO-SQL/venv
+exec_prefix=/Users/jaymehta/Desktop/TEXT-TO-SQL/venv
+libdir=/Users/jaymehta/Desktop/TEXT-TO-SQL/venv/lib
+sharedlibdir=/Users/jaymehta/Desktop/TEXT-TO-SQL/venv/lib
+includedir=/Users/jaymehta/Desktop/TEXT-TO-SQL/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
